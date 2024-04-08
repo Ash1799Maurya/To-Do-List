@@ -52,7 +52,10 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+  margin-right: 10px;
 }
+
+
 ul li {
   
   font-size: 17px;
@@ -87,14 +90,31 @@ ul li:hover {
   margin-bottom: 0.5rem;
 }
 
+button.deleteBtn {
+  margin-right: 0px;
+}
+
+@media (max-width:768px) {
+  .main-todo-div {
+    flex-direction: column;
+  }
+}
+
 @media (max-width:768px) {
   button {
     padding: 10px 30px;
   }
+  bottom.deleteBtn {
+    padding: 10px 0px;
+  }
 }
+
 
 @media (max-width:576px) {
   button {
     padding: 8px 12px;
+  }
+  bottom.deleteBtn {
+    padding: 8px 0px;
   }
 }  
