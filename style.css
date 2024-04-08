@@ -83,9 +83,10 @@ ul li:hover {
 
 .main-todo-div {
 
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 0.3fr;
   align-items: start;
+  justify-content: space-between;
   height: auto;
   margin-bottom: 0.5rem;
 }
@@ -106,6 +107,7 @@ button.deleteBtn {
   }
   bottom.deleteBtn {
     padding: 10px 0px;
+    width: 100%;
   }
 }
 
@@ -116,5 +118,6 @@ button.deleteBtn {
   }
   bottom.deleteBtn {
     padding: 8px 0px;
+    width: 100%;
   }
 }  
