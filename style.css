@@ -86,3 +86,15 @@ ul li:hover {
   height: auto;
   margin-bottom: 0.5rem;
 }
+
+@media (max-width:768px) {
+  button {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width:576px) {
+  button {
+    padding: 8px 12px;
+  }
+}  
